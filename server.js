@@ -6,6 +6,6 @@ app.use(express.static('start/Event'));
 app.use(express.static('start'));
 
 // start server
-app.listen(8080, function(){
+app.listen(80, function(){
 	console.log('Listening on port 80');
 });
