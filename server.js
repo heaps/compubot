@@ -15,9 +15,15 @@ app.get('/', function(req, res){
 	if (host === 'patroneshermosos.com'){
 		res.redirect('/es.html');
 	}
+	else if	(host === 'www.patroneshermosos.com'){
+		res.redirect('/es.html');
+	}	
 	else if	(host === 'conpatron.com'){
 		res.redirect('/es.html');
 	}
+	else if	(host === 'www.conpatron.com'){
+		res.redirect('/es.html');
+	}	
 	else {
 		res.redirect('/en.html');
 	}
